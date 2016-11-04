@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.2" package="com.aaronlehrian.gnome" version="1.0.1">
+    <author email="aaron.lehrian@gmail.com" href="https://www.aaronlehrian.com">Aaron Lehrian</author>
+    <description>A simple metronome app for the Samsung Gear S2.</description>
+    <profile name="wearable"/>
+    <ui-application appid="com.aaronlehrian.gnome" exec="gnome" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>Gnome</label>
+        <icon>gnome.png</icon>
+    </ui-application>
+    <feature name="http://tizen.org/feature/screen.size.normal.360.360">true</feature>
+</manifest>

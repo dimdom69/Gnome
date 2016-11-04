@@ -45,3 +45,16 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Ignore binary builds
+Debug
+Release
+
+# Ignore signature
+.sign
+
+# Ignore crash logs
+crash-info
+
+# ?
+SA_Report
